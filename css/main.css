@@ -43,13 +43,13 @@ a:hover {
 .hero {
   text-align: center;
   color: rgb(102, 2, 105);
-  padding: 14rem 0 55rem;
+  padding: 14rem 0 30rem;
   background-image: url("../img/reportingfordutycats.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
   margin: 0 0 5rem 0;
-
+  height: 50%;
 }
 
 .hero p {

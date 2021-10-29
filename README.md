@@ -5,6 +5,7 @@ Live link: https://jeng200.github.io/purrrfect-meowtivation/
 I created this site while learning about HTML and CSS via Scrimba. Lessons included *CSS syntax *Inheritance *Cascade  *The box model: padding, margin, and borders *Semantic HTML *Nesting *Lists *Classes *IDs *Divs *Spans *Centering *Columns *Background images *Relative file paths
 
 Photo credits:
+
 Three kittens: Photo by <a href="https://unsplash.com/@nalathecat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tuğçe Beşel</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Organized leaves: Photo by <a href="https://unsplash.com/@whatisdelirium?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nadi Whatisdelirium</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

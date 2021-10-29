@@ -46,6 +46,8 @@ a:hover {
   padding: 14rem 0 55rem;
   background-image: url("../img/reportingfordutycats.jpg");
   background-size: cover;
+  background-position: center;
+  position: relative;
   margin: 0 0 5rem 0;
 
 }

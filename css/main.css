@@ -74,11 +74,11 @@ a:hover {
 }
 
 .text-accent {
-  color:rgb(136, 4, 129)
+  color:rgb(136, 4, 129);
 }
 
 .container {
-  width: 1000px;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
   padding: 2% 0;
@@ -100,6 +100,12 @@ a:hover {
 button {
   padding: .5%;
   margin: 1%;
+  background: rgb(172, 3, 158);
+  color: black;
+}
+
+button:hover {
+  color:rgb(59, 204, 230);
 }
 
 footer {

@@ -1,21 +1,17 @@
 * {
   box-sizing: border-box;
-}
-
-html, body {
   margin: 0;
-  padding: 0;
 }
 
 img {
-  max-width: 25%;
+  max-width: 90%;
 }
 
 body {
   font-family: Tahoma, sans-serif;
   background: rgb(122, 163, 238);
   font-size 15px;
-  color: black;
+  color: rgb(7, 0, 0);
   color: inherit;
 }
 
@@ -23,8 +19,13 @@ h1, h2, h3 {
   font-weight: 900;
 }
 
+h1 {
+  font-size: 100px;
+}
+
 a {
   color: rgb(1, 1, 34);
+  text-decoration: none;
 }
 
 a:hover {
@@ -40,23 +41,68 @@ a:hover {
 }
 
 .hero {
-  text-align: left;
+  text-align: center;
+  color: rgb(102, 2, 105);
   padding: 14rem 0 55rem;
-  background-image: url("../img/reportingfordutycats2.jpg");
+  background-image: url("../img/reportingfordutycats.jpg");
   background-size: cover;
-  margin: 0 0 25rem 0;
+  margin: 0 0 5rem 0;
+  width: 100vw;
+  height: 100vh;
 }
 
-
+.hero p {
+  font-size: 30px;
+  font-weight: 700;
+  color:rgb(97, 2, 97)
+}
 
 .accent-bg {
   background: purple;
+  color: black;
+  text-align: center;
+  padding: 10px;
 }
 
 .accent-bg .btn {
-  background-color: rgb(4, 136, 22);
+  background-color: rgb(94, 212, 241);
+  margin: 10px 0;
 }
 
 .accent-bg .btn:hover {
-  background: rgb(233, 101, 7);
+  background: rgb(10, 4, 0);
+  color:rgb(59, 204, 230)
+}
+
+.text-accent {
+  color:rgb(136, 4, 129)
+}
+
+.container {
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2% 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  align-items: baseline;
+}
+
+.col {
+  margin: 2%;
+}
+
+button {
+  padding: .5%;
+  margin: 1%;
+}
+
+footer {
+  text-align: center;
 }

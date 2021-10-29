@@ -47,8 +47,7 @@ a:hover {
   background-image: url("../img/reportingfordutycats.jpg");
   background-size: cover;
   margin: 0 0 5rem 0;
-  width: 100vw;
-  height: 100vh;
+
 }
 
 .hero p {
@@ -79,7 +78,7 @@ a:hover {
 }
 
 .container {
-  width: 1500px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding: 2% 0;
@@ -105,4 +104,12 @@ button {
 
 footer {
   text-align: center;
+}
+
+.smaller-h1 {
+  font-size: 70px;
+}
+
+.medium-image {
+  width: 50%;
 }

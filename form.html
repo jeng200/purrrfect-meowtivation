@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="smaller-h1">Sign up for our newsletter!</h1>
+  <div class="container">
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname">
+    <br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email">
+
+    <p>Would you like meowtivational promotions emailed to you?</p>
+    <label for="yes">Yes</label>
+    <input type="radio" id="yes" name="promotions"><br>
+    <label for="no">No</label>
+    <input type="radio" id="no" name="promotions"><br>
+
+    <p>What would you like us to email you?</p>
+    <label for="motivation">Motivation tips</label>
+    <input type="checkbox" id="motivation" name="email-types"><br>
+    <label for="exercise">Exercise tips</label>
+    <input type="checkbox" id="exercise" name="email-types"><br>
+    <label for="energy">Ways to get more energy</label>
+    <input type="checkbox" id="energy" name="email-types"><br>
+    <label for="cat">Just cat stuff</label>
+    <input type="checkbox" id="cat" name="email-types"><br>
+    <br>
+    <label for="extra-info">Tell us know more about you.</label><br>
+    <textarea rows="3" cols="30" name="extra-info" id="extrainfo"></textarea>
+    <br>
+    <br>
+    <label for="like-site">Did you like our site?</label>
+    <select name="like-site" id="like-site">
+      <option value="def">Definitely</option>
+      <option value="meh">Meh</option>
+    </select>
+    <br>
+    <br>
+    <label for="improve">What can we improve?</label><br>
+    <textarea rows="3" cols="30" name="improve" id="improve"></textarea>
+    <br>
+    <br>
+    <input class="btn" type="submit" value="Submit"><br>
+
+  <button><a href="index.html">Back to home page</a></button>
+</form>
+</div>
+  <footer>©2021 Designed and developed by Jennifer Goldberg</footer>
+
+</body>
+</html>

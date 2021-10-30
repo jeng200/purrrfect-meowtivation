@@ -2,7 +2,7 @@
 
 Live link: https://jeng200.github.io/purrrfect-meowtivation/
 
-I created this site while learning about HTML and CSS via Scrimba. Lessons included *CSS syntax *Inheritance *Cascade  *The box model: padding, margin, and borders *Semantic HTML *Nesting *Lists *Classes *IDs *Divs *Spans *Centering *Columns *Background images *Relative file paths
+I created this site while learning about HTML and CSS via Scrimba. Lessons included *CSS syntax *Inheritance *Cascade  *The box model: padding, margin, and borders *Semantic HTML *Nesting *Lists *Classes *IDs *Divs *Spans *Centering *Columns *Background images *Relative file paths *Forms *Flexbox
 
 Photo credits:
 

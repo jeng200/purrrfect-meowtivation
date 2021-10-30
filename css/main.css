@@ -37,7 +37,8 @@ a:hover {
   padding: .5em 1.25em;
   text-decoration: none;
   font-weight: 700;
-  background: rgb(116, 2, 87);
+  background: rgb(172, 3, 158);
+  color: black;
 }
 
 .hero {
@@ -62,15 +63,15 @@ a:hover {
   background: purple;
   color: black;
   text-align: center;
-  padding: 10px;
+  padding: 1px;
 }
 
 .accent-bg .btn {
   background-color: rgb(94, 212, 241);
-  margin: 10px 0;
+  
 }
 
-.accent-bg .btn:hover {
+.btn:hover {
   background: rgb(10, 4, 0);
   color:rgb(59, 204, 230)
 }
@@ -81,9 +82,8 @@ a:hover {
 
 .container {
   max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 2% 0;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .text-center {
@@ -99,6 +99,23 @@ a:hover {
   margin: 2%;
 }
 
+.col-left {
+  width: 40%;
+}
+
+.center {
+  justify-content: center;
+}
+
+.col-right {
+  width: 60%;
+  align-self: center;
+}
+
+.col-right-index {
+  align-self: center;
+}
+
 button {
   padding: .5%;
   margin: 1%;
@@ -112,12 +129,23 @@ button:hover {
 
 footer {
   text-align: center;
+  margin-top: 20px;
 }
 
 .smaller-h1 {
-  font-size: 50px;
+  font-size: 40px;
+  text-align: center;
 }
 
 .medium-image {
-  max-width: 600px;
+  max-width: 400px;
+}
+
+.border-top {
+  border-top: 1px purple dotted;
+}
+
+form {
+  margin-top: 30px;
+  text-align: center;
 }
